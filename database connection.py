@@ -1,7 +1,7 @@
-import mysql.connector
+import pymysql
 
 # Give your userid and Password here
-mydb=mysql.connector.connect(host="localhost",
+mydb=pymysql.connect(host="localhost",
                              user='test',
                              passwd="123")
 
